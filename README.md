@@ -15,7 +15,7 @@ Para instalar y ejecutar Ahorcado Finísimo en tu entorno local, sigue estos pas
 
 1. Clona el repositorio:
    ```
-   git clone URL_DEL_REPOSITORIO
+   git clone https://github.com/carlosgonnzalez/examen_programweb
    ```
 2. Navega hasta el directorio del proyecto:
    ```
@@ -46,12 +46,5 @@ Si deseas contribuir a Ahorcado Finísimo, por favor sigue estos pasos:
 4. Empuja a la rama (`git push origin mi-nueva-caracteristica`).
 5. Crea un nuevo Pull Request.
 
-## Licencia
-Este proyecto está licenciado bajo la Licencia XYZ - ver el archivo LICENSE.md para más detalles.
-
 ## Contacto
-Si tienes preguntas o comentarios sobre este proyecto, por favor contáctanos a [tu-email@ejemplo.com].
-
-## Agradecimientos
-- [Nombre del Contribuyente]: Por su invaluable ayuda en el desarrollo.
-- A todos los que han participado en el proyecto de alguna manera.
+Si tienes preguntas o comentarios sobre este proyecto, por favor contáctanos a [cegonzalez.21@est.ucab.edu.ve].
