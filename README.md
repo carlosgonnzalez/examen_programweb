@@ -17,19 +17,22 @@ Para instalar y ejecutar Ahorcado Finísimo en tu entorno local, sigue estos pas
    ```
    git clone https://github.com/carlosgonnzalez/examen_programweb
    ```
-2. Navega hasta el directorio del proyecto:
-   ```
-   cd ahorcado-finisimo
-   ```
-3. Instala las dependencias:
+2. Navega hasta el directorio del proyecto y ubicate en la carpeta [frontend],
+   abre un terminal integrado de esa carpeta e instala las dependencias:
    ```
    npm install
    ```
-4. Inicia el servidor:
+4. Navega hasta el directorio del proyecto y ubicate en la carpeta [Server],
+   abre un terminal integrado de esa carpeta e instala las dependencias:
    ```
-   npm start
+   npm install
    ```
-5. Abre tu navegador y navega a `http://localhost:4000` para empezar a jugar.
+5. Ya con las dependencias intaladas en la carpeta [frontend] y en [Server]
+   debes iniciar este comando en los terminales integrados de las dos carpetas:
+   ```
+   npm run dev
+   ```
+7. Abre tu navegador y navega a `http://localhost:5173` para empezar a jugar.
 
 ## Uso
 Una vez que el servidor esté corriendo y la página esté abierta en un navegador:
