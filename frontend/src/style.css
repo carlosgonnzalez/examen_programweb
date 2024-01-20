@@ -1,0 +1,199 @@
+.hidden {
+  color: transparent;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #1a1a2e;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+#wordContainer {
+  margin-top: 20px;
+}
+
+.letter {
+  margin: 0 7px;
+  position: relative;
+  text-align: center;
+}
+
+.letter::after{
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  min-width: 12px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+p {
+  color: #544eae;
+  font-size: 28px;
+}
+
+
+
+.main-content {
+  background-color: #544eae;
+  padding: 1.5rem;
+  border-radius: 7px;
+  height: 28rem;
+}
+.input-group {
+  margin-bottom: 1rem;
+  background-color: #16213e;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+input[type="text"] {
+  border: none;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 5px;
+  width: 200px;
+}
+
+#startButton {
+  background-color: #544eae;
+  color: white;
+  border: none;
+  padding: 1rem 6.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  
+}
+
+button {
+  background-color: #0f3460;
+  appearance: none;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #16213e;
+}
+
+.input-group-join {
+  margin-top: 20px;
+  background-color: #544eae;
+  padding: 0.5rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-group-join input[type="text"] {
+  background-color: #ffffff;
+  border: none;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.input-group-join button {
+  background-color: #2c2769;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.input-group-join button:hover {
+  background-color: #16213e;
+}
+
+#playerNameInputArea {
+  background-color: #544eae;
+  padding: 0.8rem 2.5rem;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#playerNameInput {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 10px;
+  width: 250px;
+  color: #000; /* Añade color al texto para mejorar la visibilidad */
+}
+
+#submitNameButton {
+  background-color: #241f61;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#submitNameButton:hover {
+  background-color: #212768;
+}
+
+/* Estilos para el botón de volver al menú principal */
+#menuButtonPostGame {
+  background-color: #3a3f7b;
+  color: white;
+  margin-top: 20px;
+  border: none;
+  padding: 0.8rem 8rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#menuButtonPostGame:hover {
+  background-color: #2c2769;
+}
+
+#salaInfo {
+  font-size: 2.5rem; /* Tamaño de fuente más grande */
+  color: #fff; /* Color del texto */
+  margin-top: 20px; /* Espaciado superior */
+  font-weight: 700;
+}
+
+#salaIdDisplay {
+  font-weight: 700; /* Negrita para resaltar el ID de la sala */
+}
+#menuButton {
+  background-color: #3a3f7b;
+  color: white;
+  margin-top: 20px; /* Espacio adicional en la parte superior */
+  border: none;
+  padding: 0.8rem 8rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#menuButton:hover {
+  background-color: #2c2769;
+}

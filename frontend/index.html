@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado Finísimo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/style.css">
+    <script type="text/javascript" src="/src/palabras.js" defer></script>
+</head>
+<body>
+    <h1>AHORCADO FINISIMO</h1>
+    <p>PROYECTO PROGRAMACION WEB</p>
+    <div id="playerNameInputArea">
+      <input type="text" id="playerNameInput" placeholder="Ingresa tu nombre">
+      <button id="submitNameButton">Confirmar</button>
+    </div>
+    <div id="gameContainer" style="display: none;">
+        <div id="gameArea">
+            <canvas id="canvas"></canvas>
+            <div id="usedLetters"></div>
+            <div id="wordContainer"></div>
+            <div id="adivinarLetraInfo" style="display: none; margin-top: 30px;">
+              Introduce una letra para adivinar la palabra
+            </div>
+            <div id="salaInfo" style="display: none;">SALA: <span id="salaIdDisplay"></span></div>
+            <button id="menuButton" style="display: none;">Volver al Menú Principal</button>
+            <!-- Botón para crear una sala -->
+            <button id="startButton">CREAR SALA FINISIMA</button>
+
+            <!-- Elementos para unirse a una sala existente -->
+            <div class="input-group-join">
+                <input type="text" id="salaIdInput" placeholder="Ingresa ID de Sala">
+                <button id="unirseSala">Unirse a Sala</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mensajes de Ganar y Perder y Opciones Post-Juego -->
+    <div id="postGameOptions" style="display: none;">
+      <div id="winMessage" style="display: none;">¡Finisidades! La finisima palabra ha sido adivinada.</div>
+      <div id="loseMessage" style="display: none;">Lo siento, has perdido finisimamente. La finisima palabra era: <span id="correctWord"></span>.</div>
+      
+      <!-- Opciones Post-Juego -->
+      <button id="restartButton" style="display: block;">Jugar de Nuevo</button>
+      <button id="menuButtonPostGame">Volver al Menú Principal</button>
+  </div>
+
+    <script type="module" src="/src/script.js"></script>
+</body>
+</html>
